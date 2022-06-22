@@ -3,6 +3,9 @@
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 
+
+use Longman\TelegramBot\Request;
+
 $API_KEY = '232285088:AAHOw7nZeaTtNDKLul_X4Hnd0ZaBxRcclIM';
 $BOT_NAME = 'fiza_bot';
 try {
@@ -16,9 +19,6 @@ try {
     // log telegram errors
     // echo $e;
 }
-
-use Longman\TelegramBot\Request;
-
 
 /*
 Para pegar o chat_id bata na url 
